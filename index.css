@@ -149,6 +149,12 @@ body{
     font-size: 30px;
 }
 
+
+
+.base_stats{
+    display: none;
+}
+
 .character_grass{
     
     background-color: #49d0b0
