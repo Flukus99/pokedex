@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>POKODEX</title>
+</head>
+<body>
+    <h1 class="title">pokedex</h1>
+    <button class="no_active" id="btn_cloes" onclick="back()">x</button>
+    <div class="contenedor" id="container">
+
+    </div>
+    <div class="pag"  id="paginas">
+       
+        <button onclick="siguiente()" class="btn_siguiente">cargar mas</button>
+    </div>
+    <div class="info">
+        <div class="navbar">
+            <ul>
+                <li class="activo"onclick="estadisticas('about')"id="about">About</li>
+                <li onclick="estadisticas('stats')" id="stats">Base Stats</li>
+                <li onclick="estadisticas('evolution')" id="evolution">Evolution</li>
+                
+            </ul>
+        </div>
+        <div class="features">
+            <ul>
+                <li><p>Species:</p><p class="especie"></p></li>
+                <li><p>Height:</p><p class="altura"></p></li>
+                <li><p>Weight:</p><p class="peso"></p></li>
+                <li><p>Abilities:</p><p class="habilidad"></p></li>
+            </ul>
+        </div>
+        <div class="base_stats">
+            <ul>
+                <li><p>Species:</p><p class="especie"></p></li>
+                <li><p>Height:</p><p class="altura"></p></li>
+                <li><p>Weight:</p><p class="peso"></p></li>
+                <li><p>Abilities:</p><p class="habilidad"></p></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+
+
+</html>
